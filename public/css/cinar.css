@@ -1,0 +1,192 @@
+html,body {
+    font-family: 'Oxygen', 'Open Sans', museo-sans,'Titillium Web',sans-serif;
+    font-size: 16px;
+    padding-top:0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.brand{
+    -webkit-transition:height 0.2s linear;
+    -moz-transition:height 0.2s linear;  
+    -o-transition:height 0.2s linear;         
+    transition:height 0.2s linear;  
+}
+
+.brand-small{
+    height: 2em;
+}
+
+.brand-large{
+    height: 3em;
+}
+
+.block{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    background-color: #f5f5f5 !important;
+}
+
+.light-text{
+    color:#eeeeee;
+}
+
+.dark-text{
+    color:#333333;
+}
+
+.size-48{
+    font-size: 48px;
+}
+
+.darkGray{
+    color:#333333;
+}
+
+.lightGray{
+    color:#888888;
+}
+
+.gray{
+    color:#555555;
+}
+
+.bg-light{
+    background-color: #ffffff!important;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+
+.landing-image{
+    width:inherit;
+}
+
+nav.bg-controlled{
+    background-color: rgba(255, 255, 255, 0)!important;
+}
+
+nav.bg-controlled.nav-border{
+    border-bottom: 1px solid #222222;
+    background-color: rgba(65, 65, 65, 255)!important;
+}
+
+a.nav-link{
+    color: #ffffff!important;
+    transition: all 0.25s linear;
+}
+
+a.nav-link:hover{
+    color: #333333!important;
+}
+
+.reference{
+    width: 100%;
+    height: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    transition: all 0.25s ease-in-out;
+}
+
+.tech{
+    width: 100%;
+    height: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 64px;
+    transition: all 0.25s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.semi-opaque{
+    opacity: 0.5;
+}
+
+.tech:hover{
+    filter: none;
+    opacity: 1.0;
+}
+
+.ea-logo{
+    background-image: url("/images/references/EA_logo_gray.png");
+}
+.ea-logo:hover{
+    background-image: url("/images/references/EA_logo.png");
+}
+
+.bioware-logo{
+    background-image: url("/images/references/bioware-logo32-gray.png");
+}
+.bioware-logo:hover{
+    background-image: url("/images/references/bioware-logo32.png");
+}
+
+.cinarlab-logo{
+    background-image: url("/images/references/cinarlab-gray.png");
+}
+.cinarlab-logo:hover{
+    background-image: url("/images/references/cinarlab.png");
+}
+
+.cinar-logo{
+    background-image: url("/images/references/cinar-gray.png");
+}
+.cinar-logo:hover{
+    background-image: url("/images/references/cinar.png");
+}
+
+.gameforge-logo{
+    background-image: url("/images/references/gameforge-gray.png");
+}
+.gameforge-logo:hover{
+    background-image: url("/images/references/gameforge.png");
+}
+
+.zipprime-logo{
+    background-image: url("/images/references/zipprime-gray.png");
+}
+.zipprime-logo:hover{
+    background-image: url("/images/references/zipprime.png");
+}
+
+.zipprime-logo{
+    background-image: url("/images/references/zipprime-gray.png");
+}
+.zipprime-logo:hover{
+    background-image: url("/images/references/zipprime.png");
+}
+
+.git-logo{
+    background-image: url("/images/techs/git.svg");
+}
+
+.java-logo{
+    background-image: url("/images/techs/java.svg");
+}
+
+.postgresql-logo{
+    background-image: url("/images/techs/postgresql.svg");
+}
+
+.react-logo{
+    background-image: url("/images/techs/react.svg");
+}
+
+.spring-logo{
+    background-image: url("/images/techs/spring.svg");
+}
+
+.tomcat-logo{
+    background-image: url("/images/techs/tomcat.svg");
+}
+
+.unity-logo{
+    background-image: url("/images/techs/unity.svg");
+}
