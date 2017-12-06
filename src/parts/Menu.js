@@ -5,7 +5,7 @@ class Menu extends Component {
         return <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light bg-controlled">
                 <div className="container">
                     <a className="navbar-brand" href="index.html">
-                        <img className="brand brand-large" data-toggle="brand" src="/images/cinarYazilimLogoSmallGrad.svg" alt="Çınar Yazılım A.Ş."/>
+                        <img className="brand brand-large" data-toggle="brand" src="images/cinarYazilimLogoSmallGrad.svg" alt="Çınar Yazılım A.Ş."/>
                         <span style={{paddingLeft: "15px", fontWeight: 300, fontSize:"18px", color:"#ffffff"}}>ÇINAR</span>
                         <span style={{paddingLeft: "7px", fontWeight: 300, fontSize:"12px", color:"#ffffff"}}>Yazılım A.Ş.</span>
                     </a>
