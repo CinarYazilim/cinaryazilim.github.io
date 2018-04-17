@@ -57,5 +57,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js"></script>
     <script src="/js/cinar.js"></script>
 
+    <script>
+      function initMap() {
+        var uluru = {lat: 39.883085, lng: 32.820622};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPDDxtTyg1bOrV3Zt9KuaKr6auLTCWuFw&callback=initMap"></script>
+
   </body>     
 </html>

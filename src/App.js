@@ -9,6 +9,7 @@ import Menu from './parts/Menu.js';
 import Footer from './parts/Footer.js';
 
 import Home from './pages/Home.js';
+import Contact from './pages/Contact.js';
 import Services from './pages/Services.js';
 
 const HomePage = () => (
@@ -34,6 +35,7 @@ class App extends Component {
                 <Route path="/services" component={ServicesPage}/>
               </div>
           </Router>,
+          <Contact/>,
           <Footer key="footer"/>
       ];
   }
