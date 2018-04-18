@@ -7,13 +7,13 @@ class Home extends Component {
     render() {
 
         return [
-            <Splash key="products" image="images/cinarProducts.png" imageLeft={true} lightText={true} extraSpace={false}>
+            <Splash key="products" id="top" image="images/cinarProducts.png" imageLeft={true} lightText={true} extraSpace={false}>
                 <h2>Tüm platformlarla uyumlu</h2>
                 <h4 className="text-center">otomasyon, AR, VR, simülasyon,</h4>
                 <h4 className="text-center">yapay-zeka, veri madenciliği ve görüntü işleme</h4>
                 <h1 className="text-right">uygulamaları</h1>
             </Splash>,
-            <Block key="labOto" image="images/labOto.png" imageLeft={false}>
+            <Block key="labOto" image="images/labOto.png" id="labOto" imageLeft={false}>
                 <h3>LabSis Çevre Laboratuvarı Otomasyon Sistemi</h3>
                 <p>
                     LabSis çevre laboratuvarlarının ihtiyaçlarına özel olarak geliştirilmiş detaylı bir otomasyon yazılımıdır. 

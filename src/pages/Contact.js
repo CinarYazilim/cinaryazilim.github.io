@@ -12,7 +12,7 @@ export default class Contact extends Component {
             <div className="contact" key="iletisim" id="iletisim">
                 <div className="container">
                     <div className="row">
-                        <div className="col" style={{textAlign:"right", marginTop: 30}}>
+                        <div className="col" style={{textAlign:"right", marginTop: 15}}>
                             
                             <table style={{textAlign:"right"}}>
                                 <tbody>
@@ -66,7 +66,7 @@ export default class Contact extends Component {
                                 </tbody>
                             </table>
                         </div>
-                        <div className="col">
+                        <div className="col" style={{minWidth:300}}>
                             <div id="map"></div>
                         </div>
                     </div>
