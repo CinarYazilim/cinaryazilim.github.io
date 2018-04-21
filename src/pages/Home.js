@@ -9,15 +9,26 @@ class Home extends Component {
         return [
             <Splash key="products" id="top" image="images/cinarProducts.png" imageLeft={true} lightText={true} extraSpace={false}>
                 <h2>Tüm platformlarla uyumlu</h2>
-                <h4 className="text-center">otomasyon, AR, VR, simülasyon,</h4>
-                <h4 className="text-center">yapay-zeka, veri madenciliği ve görüntü işleme</h4>
-                <h1 className="text-right">uygulamaları</h1>
+                <h4 className="text-center">çevre, simülasyon ve modelleme</h4>
+                <h1 className="text-right">yazılımları</h1>
             </Splash>,
-            <Block key="labOto" image="images/labOto.png" id="labOto" imageLeft={false}>
+            <Block key="cevOto" id="cevOto" image="images/cinarCevre.png" imageLeft={false}>
+                <h3>Çevre Danışmanlık Otomasyon Sistemi</h3>
+                <p>
+                    Çevre mühendislik ve danışmanlık alanında hizmet veren şirketler için özel olarak geliştirilmiş bir yazılımdır
+                </p>
+                <ul>
+                    <li>Döküman ve bilgi yönetimi</li>
+                    <li>İzleme takibi ve otomatik hatırlatmalar</li>
+                    <li>Entegre evrak yönetimi</li>
+                    <li>Raporlama</li>
+                </ul>
+            </Block>,
+            <Block bgColor="#f5f5f5" key="labOto" image="images/labOto.png" id="labOto" imageLeft={true}>
                 <h3>LabSis Çevre Laboratuvarı Otomasyon Sistemi</h3>
                 <p>
-                    LabSis çevre laboratuvarlarının ihtiyaçlarına özel olarak geliştirilmiş detaylı bir otomasyon yazılımıdır. 
-                    Laboratuvarların hatasız ve hızlı bir şekilde işlemesi için birçok önemli özelliğe sahiptir.
+                    LabSis çevre laboratuvarlarının ihtiyaçlarına özel olarak geliştirilmiş detaylı bir otomasyon yazılımıdır.
+                    Laboratuvarların hatasız ve hızlı bir şekilde işlemesi için birçok önemli özelliğe sahiptir
                 </p>
                 <ul>
                     <li>Teklif süreçleri yönetimi</li>
@@ -28,7 +39,19 @@ class Home extends Component {
                     <li>Ölçüm cihazı entegrasyonları</li>
                 </ul>
             </Block>,
-            <SimpleBlock key="references" bgColor="#f5f5f5" style={{paddingTop:"25px", paddingBottom:"50px"}}>
+            <Block key="met" image="images/mettoaer2.png" id="met" imageLeft={false}>
+                <h3>Mettoaer Meteorolojik Veri Çeviricisi</h3>
+                <p>
+                    Mettoaer yazılımı ham meteoroloji verilerini, AERMET programının girdileri olan SAMSON ve TD6201 formatlarına dönüştürmektedir.
+                </p>
+                <ul>
+                    <li>Karışım yüksekliği hesaplanması</li>
+                    <li>Verilerin tek dosyada birleştirilmesi</li>
+                    <li>Sahaya özel parametreler ile PBL hesaplanması</li>
+                    <li>Surface met (x.SFC) ve profil (x.PFL) dosyalarının hazırlanması</li>
+                </ul>
+            </Block>,
+            <SimpleBlock key="references" id="references" bgColor="#f5f5f5" style={{paddingTop:"25px", paddingBottom:"50px"}}>
                 <div className="col">
                     <div className="row" style={{marginBottom:"10px"}}>
                         <div className="col text-center" style={{color:"#888888"}}>
@@ -116,18 +139,6 @@ class Home extends Component {
                     <li>Entegre kort rezervasyon yönetimi</li>
                 </ul>
             </Block>,
-            <Block key="cevOto" image="images/labOto.png" imageLeft={true}>
-                <h3>Çevre Danışmanlık Otomasyon Sistemi</h3>
-                <p>
-                    Çevre mühendislik ve danışmanlık alanında hizmet veren şirketler için özel olarak geliştirilmiş bir yazılımdır.
-                </p>
-                <ul>
-                    <li>Döküman ve bilgi yönetimi</li>
-                    <li>İzleme takibi ve otomatik hatırlatmalar</li>
-                    <li>Entegre evrak yönetimi</li>
-                    <li>Raporlama</li>
-                </ul>
-            </Block>
         ];
     }
 }

@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Splash from '../core/Splash.js';
-import Block from '../core/Block.js';
-import SimpleBlock from '../core/SimpleBlock';
 
 export default class Contact extends Component {
     

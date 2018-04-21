@@ -30,7 +30,8 @@ class Menu extends Component {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item"><a className="nav-link" href="#top" onClick={this.smoothScroll}>ANASAYFA</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#labOto" onClick={this.smoothScroll}>ÜRÜNLERİMİZ</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#cevOto" onClick={this.smoothScroll}>ÜRÜNLERİMİZ</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#references" onClick={this.smoothScroll}>REFERANSLARIMIZ</a></li>
                             <li className="nav-item"><a className="nav-link" href="#iletisim" onClick={this.smoothScroll}>İLETİŞİM</a></li>
                         </ul>
                     </div>

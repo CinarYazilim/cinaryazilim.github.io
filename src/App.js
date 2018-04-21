@@ -4,7 +4,6 @@ import Footer from './parts/Footer.js';
 
 import Home from './pages/Home.js';
 import Contact from './pages/Contact.js';
-import Services from './pages/Services.js';
 
 class App extends Component {
   componentDidMount(){
