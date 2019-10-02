@@ -41,7 +41,7 @@ class Footer extends Component {
 
                     <div className="row">
                         <div className="col" style={{textAlign:"center"}}>
-                            &copy; 2017 Çınar Yazılım A.Ş. 
+                            &copy; 2019 Çınar Yazılım A.Ş. 
                         </div>                                   
                     </div>                                 
                 </div>
