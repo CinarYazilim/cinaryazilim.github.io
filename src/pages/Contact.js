@@ -28,9 +28,9 @@ export default class Contact extends Component {
                                         </td>
                                         <td style={{width:15}}/>
                                         <td style={{textAlign:"left"}}>
-                                            Öveçler Huzur Mah. 1139. Sok.<br/> 
-                                            Çınar Apt.No: 6/3 06460<br/>
-                                            Çankaya, Ankara / TÜRKİYE
+                                            Bağlıca Mah. Çambayırı Cad.<br/> 
+                                            Çınar Plaza No:66/112 06790<br/>
+                                            Etimesgut, Ankara / TÜRKİYE
                                         </td>
                                     </tr>
                                     <tr>
