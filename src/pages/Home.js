@@ -51,37 +51,6 @@ class Home extends Component {
                     <li>Surface met (x.SFC) ve profil (x.PFL) dosyalarının hazırlanması</li>
                 </ul>
             </Block>,
-            <SimpleBlock key="references" id="references" bgColor="#f5f5f5" style={{paddingTop:"25px", paddingBottom:"50px"}}>
-                <div className="col">
-                    <div className="row" style={{marginBottom:"10px"}}>
-                        <div className="col text-center" style={{color:"#888888"}}>
-                            <h6>Referanslarımız</h6>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md">
-                            <div className="reference cinarlab-logo" alt="Çınar Çevre Laboratuvarı A.Ş."/>
-                        </div>
-                        <div className="col-md">
-                            <div className="reference cinar-logo"/>
-                        </div>
-                        <div className="col-md">
-                            <div className="reference bioware-logo"/>
-                        </div>
-                        <div className="col-lg d-lg-none">
-                        </div>
-                        <div className="col-md">
-                            <div className="reference ea-logo"/>
-                        </div>
-                        <div className="col-md">
-                            <div className="reference gameforge-logo"/>
-                        </div>
-                        <div className="col-md">
-                            <div className="reference zipprime-logo"/>
-                        </div>
-                    </div>
-                </div>
-            </SimpleBlock>,
             <Block key="igui" image="images/iguiSplash1.png" imageLeft={true}>
                 <h3>iGUI</h3>
                 <p>
